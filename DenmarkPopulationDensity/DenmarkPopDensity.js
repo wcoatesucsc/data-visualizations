@@ -1,12 +1,12 @@
 //Width and height
 var w = 1600;
-var h = 900;
+var h = 625;
 
 //Define map projection
 var projection = d3.geoMercator()
 // scale and center are VERY IMPORTANT, otherwise 
 // Denmark doesn't appear on the canvas!
-                   .scale([6500])
+                   .scale([5400])
                    .center([11,56.8]);
 
 //Define path generator
